@@ -1026,7 +1026,7 @@
                                 <div class="mt-4 text-center">
                                     <div class="flex justify-center">
                                         <div class="overflow-hidden rounded-full size-20 bg-slate-100">
-                                            <img src="assets/images/avatar-6.png" alt="" class="">
+                                            <img src="{{ URL::to('assets/images/avatar-6.png') }}" alt="" class="">
                                         </div>
                                     </div>
                                     <a href="#!">
@@ -1050,7 +1050,7 @@
                                 <div class="mt-4 text-center">
                                     <div class="flex justify-center">
                                         <div class="overflow-hidden rounded-full size-20 bg-slate-100">
-                                            <img src="assets/images/avatar-7.png" alt="" class="">
+                                            <img src="{{ URL::to('assets/images/avatar-7.png') }}" alt="" class="">
                                         </div>
                                     </div>
                                     <a href="#!">
@@ -1074,7 +1074,7 @@
                                 <div class="mt-4 text-center">
                                     <div class="flex justify-center">
                                         <div class="overflow-hidden rounded-full size-20 bg-slate-100">
-                                            <img src="assets/images/avatar-8.png" alt="" class="">
+                                            <img src="{{ URL::to('assets/images/avatar-8.png') }}" alt="" class="">
                                         </div>
                                     </div>
                                     <a href="#!">
@@ -1098,7 +1098,7 @@
                                 <div class="mt-4 text-center">
                                     <div class="flex justify-center">
                                         <div class="overflow-hidden rounded-full size-20 bg-slate-100">
-                                            <img src="assets/images/avatar-9.png" alt="" class="">
+                                            <img src="{{ URL::to('assets/images/avatar-9.png') }}" alt="" class="">
                                         </div>
                                     </div>
                                     <a href="#!">

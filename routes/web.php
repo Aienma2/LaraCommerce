@@ -68,6 +68,11 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
     Route::controller(AccountController::class)->group(function () {
         Route::get('page/account', 'index')->middleware('auth')->name('page/account');
     });
+
+    // ------------------------ e-commerce --------------------//
+    Route::controller(EcommerceController::class)->group(function () {
+        Route::get('product/create/page', 'productCreate')->middleware('auth')->name('product/create/page');
+    });
 });
 
 

@@ -665,6 +665,8 @@
 
     <!--dashboard ecommerce init js-->
     <script src="{{ URL::to('assets/js/pages/dashboards-ecommerce.init.js') }}"></script>
+    <!--product create init js-->
+    <script src="{{ URL::to('assets/js/pages/apps-ecommerce-product-create.init.js') }}"></script>
     <!-- App js -->
     <script src="{{ URL::to('assets/js/app.js') }}"></script>
 </body>
