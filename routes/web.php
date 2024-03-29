@@ -72,6 +72,7 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
     // ------------------------ e-commerce --------------------//
     Route::controller(EcommerceController::class)->group(function () {
         Route::get('product/create/page', 'productCreate')->middleware('auth')->name('product/create/page');
+        Route::get('product/overview/page', 'productOverview')->middleware('auth')->name('product/overview/page');
     });
 });
 

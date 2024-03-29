@@ -11,4 +11,10 @@ class EcommerceController extends Controller
     {
         return view('ecommerce.product-create');
     }
+
+    /** page product overview */
+    public function productOverview()
+    {
+        return view('ecommerce.product-overview');
+    }
 }
