@@ -240,9 +240,9 @@ function handleDropdownMenu() {
 function removeActiveMenu(content) {
     document.querySelector("#scrollbar")?.querySelectorAll('.dropdown-button.show').forEach((aTag) => {
         if (!Object.is(aTag?.nextElementSibling, content)) {
-            aTag?.classList.remove('show');
+            aTag?.classList.add('show');
             aTag?.nextElementSibling?.classList.add('opacity-100');
-            aTag?.nextElementSibling?.classList.add('hidden');
+            aTag?.nextElementSibling?.classList.remove('hidden');
         }
     });
 }
