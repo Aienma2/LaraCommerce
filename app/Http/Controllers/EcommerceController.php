@@ -33,4 +33,10 @@ class EcommerceController extends Controller
     {
         return view('ecommerce.product-overview');
     }
+
+    /** product grid */
+    public function productGrid()
+    {
+        return view('ecommerce.product-grid');
+    }
 }

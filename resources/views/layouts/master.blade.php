@@ -663,6 +663,8 @@
     <script src="{{ URL::to('assets/libs/dropzone/dropzone-min.js') }}"></script>
     <script src="{{ URL::to('assets/js/pages/pages-account.init.js') }}"></script>
 
+    <!--product Grid init js-->
+    <script src="{{ URL::to('assets/js/pages/apps-ecommerce-product-grid.init.js') }}"></script>
     <!-- product overview init js-->
     <script src="{{ URL::to('assets/js/pages/apps-ecommerce-product-overview.init.js') }}"></script>
     <!--dashboard ecommerce init js-->

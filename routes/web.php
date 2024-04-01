@@ -80,6 +80,7 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
     Route::controller(EcommerceController::class)->group(function () {
         Route::get('product/create/page', 'productCreate')->middleware('auth')->name('product/create/page');
         Route::get('product/overview/page', 'productOverview')->middleware('auth')->name('product/overview/page');
+        Route::get('product/grid/page', 'productGrid')->middleware('auth')->name('product/grid/page');
     });
 });
 
