@@ -296,4 +296,8 @@
         <!-- container-fluid -->
     </div>
     <!-- End Page-content -->
+    @section('script')
+        <!--product create init js-->
+        <script src="{{ URL::to('assets/js/pages/apps-ecommerce-product-create.init.js') }}"></script>
+    @endsection
 @endsection

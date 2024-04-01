@@ -470,4 +470,8 @@
         <!-- container-fluid -->
     </div>
     <!-- End Page-content -->
+    @section('script')
+        <!-- product overview init js-->
+        <script src="{{ URL::to('assets/js/pages/apps-ecommerce-product-overview.init.js') }}"></script>
+    @endsection
 @endsection

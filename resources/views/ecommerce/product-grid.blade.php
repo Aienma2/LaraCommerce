@@ -685,9 +685,12 @@
                     </div>
                 </div><!--end col-->
             </div><!--end grid-->
-
         </div>
         <!-- container-fluid -->
     </div>
     <!-- End Page-content -->
+    @section('script')
+        <!--product Grid init js-->
+        <script src="{{ URL::to('assets/js/pages/apps-ecommerce-product-grid.init.js') }}"></script>
+    @endsection
 @endsection
