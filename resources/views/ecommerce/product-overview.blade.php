@@ -4,7 +4,6 @@
     <!-- Page-content -->
     <div class="group-data-[sidebar-size=lg]:ltr:md:ml-vertical-menu group-data-[sidebar-size=lg]:rtl:md:mr-vertical-menu group-data-[sidebar-size=md]:ltr:ml-vertical-menu-md group-data-[sidebar-size=md]:rtl:mr-vertical-menu-md group-data-[sidebar-size=sm]:ltr:ml-vertical-menu-sm group-data-[sidebar-size=sm]:rtl:mr-vertical-menu-sm pt-[calc(theme('spacing.header')_*_1)] pb-[calc(theme('spacing.header')_*_0.8)] px-4 group-data-[navbar=bordered]:pt-[calc(theme('spacing.header')_*_1.3)] group-data-[navbar=hidden]:pt-0 group-data-[layout=horizontal]:mx-auto group-data-[layout=horizontal]:max-w-screen-2xl group-data-[layout=horizontal]:px-0 group-data-[layout=horizontal]:group-data-[sidebar-size=lg]:ltr:md:ml-auto group-data-[layout=horizontal]:group-data-[sidebar-size=lg]:rtl:md:mr-auto group-data-[layout=horizontal]:md:pt-[calc(theme('spacing.header')_*_1.6)] group-data-[layout=horizontal]:px-3 group-data-[layout=horizontal]:group-data-[navbar=hidden]:pt-[calc(theme('spacing.header')_*_0.9)]">
         <div class="container-fluid group-data-[content=boxed]:max-w-boxed mx-auto">
-            
             <div class="flex flex-col gap-2 py-4 md:flex-row md:items-center print:hidden">
                 <div class="grow">
                     <h5 class="text-16">Overview</h5>
@@ -55,7 +54,8 @@
                                     <a href="#!" data-modal-target="shareModal" class="transition-all duration-300 ease-linear hover:text-custom-500"><i data-lucide="share-2" class="inline-block align-middle size-3 ltr:mr-1 rtl:ml-1"></i> <span class="align-middle">Share</span></a>
                                 </div>
                             </div>
-                        </div><!--end card-->
+                        </div>
+                        <!--end card-->
                         <div class="card">
                             <div class="border-b card-body border-slate-200 dark:border-zink-500">
                                 <div class="flex">
@@ -73,9 +73,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end card-->
+                        </div>
+                        <!--end card-->
                     </div>
-                </div><!--end col-->
+                </div>
+                <!--end col-->
                 <div class="xl:col-span-8">
                     <div class="card">
                         <div class="card-body">
@@ -105,7 +107,6 @@
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-fill"></i>
                                     <i class="ri-star-half-line"></i>
-
                                     <div class="text-slate-800 dark:text-zink-50 shrink-0">
                                         <h6>(4.8)</h6>
                                     </div>
@@ -317,7 +318,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div><!--end col-->
+                                </div>
+                                <!--end col-->
                                 <div class="xl:col-span-8">
                                     <div class="flex items-center gap-3 mb-4">
                                         <h5 class="text-16 grow">Reviews</h5>
@@ -459,13 +461,17 @@
                                             <a href="#!" class="text-slate-500 shrink-0 count-button [&.active]:text-red-500 active"><i data-lucide="thumbs-down" class="inline-block size-3 ltr:mr-1 rtl:ml-1"></i> <span class="align-middle count-number">17</span></a>
                                         </div>
                                     </div>
-                                </div><!--end col-->
-                            </div><!--end grid-->
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end grid-->
                         </div>
-                    </div><!--end card-->
-                </div><!--end col-->
-            </div><!--end grid-->
-
+                    </div>
+                    <!--end card-->
+                </div>
+                <!--end col-->
+            </div>
+            <!--end grid-->
         </div>
         <!-- container-fluid -->
     </div>

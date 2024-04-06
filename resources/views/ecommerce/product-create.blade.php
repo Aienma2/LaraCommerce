@@ -25,31 +25,26 @@
                                 <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-12">
                                     <div class="xl:col-span-6">
                                         <label for="productNameInput" class="inline-block mb-2 text-base font-medium">Product Title</label>
-                                        <input type="text" id="productNameInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Product title" required="">
+                                        <input type="text" id="productNameInput" name="product_title" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Product title">
                                         <p class="mt-1 text-sm text-slate-400 dark:text-zink-200">Do not exceed 20 characters when entering the product name.</p>
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-6">
                                         <label for="productCodeInput" class="inline-block mb-2 text-base font-medium">Product Code</label>
-                                        <input type="text" id="productCodeInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Product Code" value="ST145015" disabled="" required="">
+                                        <input type="text" id="productCodeInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Product Code" value="ST000000">
                                         <p class="mt-1 text-sm text-slate-400 dark:text-zink-200">Code will be generated automatically</p>
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="qualityInput" class="inline-block mb-2 text-base font-medium">Quantity</label>
-                                        <input type="number" id="qualityInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Quantity" required="">
+                                        <input type="number" id="qualityInput" name="quantity" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Quantity">
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="skuInput" class="inline-block mb-2 text-base font-medium">SKU</label>
-                                        <input type="text" id="skuInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="TWT-LP-ALU-08" required="">
+                                        <input type="text" id="skuInput" name="sku" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="STK-LP-ALU-08">
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="brandInput" class="inline-block mb-2 text-base font-medium">Brand</label>
-                                        <input type="text" id="brandInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Brand" required="">
+                                        <input type="text" id="brandInput" name="brand" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Brand">
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="categorySelect" class="inline-block mb-2 text-base font-medium">Category</label>
                                         <select name="category" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="categorySelect" id="categorySelect">
@@ -59,27 +54,24 @@
                                             @endforeach
                                         </select>
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="productTypeSelect" class="inline-block mb-2 text-base font-medium">Product Type</label>
-                                        <select class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="productTypeSelect" id="productTypeSelect">
-                                            <option value="">Select Type</option>
+                                        <select name="product_type" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="productTypeSelect" id="productTypeSelect">
+                                            <option>Select Type</option>
                                             @foreach($ProductType as $key => $value)
                                                 <option value="{{ $value->product_type_name }}">{{ $value->product_type_name }}</option>
                                             @endforeach
                                         </select>
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="genderSelect" class="inline-block mb-2 text-base font-medium">Gender</label>
-                                        <select class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="genderSelect" id="genderSelect">
-                                            <option value="">Select Gender</option>
+                                        <select name="gender" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="genderSelect" id="genderSelect">
+                                            <option>Select Gender</option>
                                             @foreach($Gender as $key => $value)
                                                 <option value="{{ $value->gender }}">{{ $value->gender }}</option>
                                             @endforeach
                                         </select>
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-6">
                                         <label for="qualityInput" class="inline-block mb-2 text-base font-medium">Colors Variant</label>
                                         <div class="flex flex-wrap items-center gap-2">
@@ -115,33 +107,30 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-6">
                                         <div class="inline-block mb-2 text-base font-medium">Size</div>
                                         <div class="flex flex-wrap items-center gap-2">
                                             @foreach($Size as $key => $value)
                                                 <div>
-                                                    <input type="checkbox" value="{{ $value->size }}" name="selectSize" id="selectSize{{ $value->size }}" class="hidden peer">
+                                                    <input type="checkbox" value="{{ $value->size }}" name="selectSize[]" id="selectSize{{ $value->size }}" class="hidden peer">
                                                     <label for="selectSize{{ $value->size }}" class="flex items-center justify-center text-xs border rounded-md cursor-pointer size-10 border-slate-200 dark:border-zink-500 peer-checked:bg-custom-50 dark:peer-checked:bg-custom-500/20 peer-checked:border-custom-300 dark:peer-checked:border-custom-700 peer-disabled:bg-slate-50 dark:peer-disabled:bg-slate-500/15 peer-disabled:border-slate-100 dark:peer-disabled:border-slate-800 peer-disabled:cursor-default peer-disabled:text-slate-500 dark:peer-disabled:text-zink-200">{{ $value->size }}</label>
                                                 </div>
                                             @endforeach
                                         </div>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="lg:col-span-2 xl:col-span-12">
                                         <label for="genderSelect" class="inline-block mb-2 text-base font-medium">Product Images</label>
                                         <div class="flex items-center justify-center bg-white border border-dashed rounded-md cursor-pointer dropzone border-slate-300 dark:bg-zink-700 dark:border-zink-500 dropzone2">
                                             <div class="fallback">
-                                                <input name="file" type="file" multiple="multiple">
+                                                <input type="file" name="product_images" multiple="multiple">
                                             </div>
                                             <div class="w-full py-5 text-lg text-center dz-message needsclick">
                                                 <div class="mb-3">
                                                     <i data-lucide="upload-cloud" class="block mx-auto size-12 text-slate-500 fill-slate-200 dark:text-zink-200 dark:fill-zink-500"></i>
                                                 </div>
-
                                                 <h5 class="mb-0 font-normal text-slate-500 dark:text-zink-200 text-15">Drag and drop your product images or <a href="#!">browse</a> your product images</h5>
                                             </div>
                                         </div>
-
                                         <ul class="flex flex-wrap mb-0 gap-x-5" id="dropzone-preview2">
                                             <li class="mt-5" id="dropzone-preview-list2">
                                                 <!-- This is used as the file preview template -->
@@ -168,52 +157,50 @@
                                     <div class="lg:col-span-2 xl:col-span-12">
                                         <div>
                                             <label for="productDescription" class="inline-block mb-2 text-base font-medium">Description</label>
-                                            <textarea class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" id="productDescription" placeholder="Enter Description" rows="5"></textarea>
+                                            <textarea name="description" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" id="productDescription" placeholder="Enter Description" rows="5"></textarea>
                                         </div>
                                     </div>
                                     <div class="xl:col-span-4">
                                         <label for="productPrice" class="inline-block mb-2 text-base font-medium">Price</label>
-                                        <input type="number" id="productPrice" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="$0.00" required="">
-                                    </div><!--end col-->
+                                        <input type="number" id="productPrice" name="price" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="$0.00">
+                                    </div>
                                     <div class="xl:col-span-4">
                                         <label for="productDiscounts" class="inline-block mb-2 text-base font-medium">Discounts</label>
-                                        <input type="number" id="productDiscounts" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="0%" required="">
-                                    </div><!--end col-->
+                                        <input type="number" id="productDiscounts" name="discount" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="0%">
+                                    </div>
                                     <div class="xl:col-span-4">
                                         <label for="taxApplicable" class="inline-block mb-2 text-base font-medium">TAX Applicable</label>
-                                        <select class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="taxApplicable" id="taxApplicable">
-                                            <option value="">Select TAX Applicable</option>
+                                        <select name="tax_applicable" id="taxApplicable" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="">
+                                            <option value>Select TAX Applicable</option>
                                             @foreach($TAXApplicable as $key => $value)
                                                 <option value="{{ $value->tax_applicable }}">{{ $value->tax_applicable }}</option>
                                             @endforeach
                                         </select>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="xl:col-span-4">
                                         <label for="publishDateTime" class="inline-block mb-2 text-base font-medium">Publish Date & Time</label>
-                                        <input type="number" id="publishDateTime" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Select date & time" data-provider="flatpickr" data-date-format="d M, Y" data-enable-time="" required="">
+                                        <input type="number" name="publish_date" id="publishDateTime" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Select date & time" data-provider="flatpickr" data-date-format="d M, Y" data-enable-time="">
                                     </div>
-                                    <!--end col-->
                                     <div class="xl:col-span-4">
                                         <label for="productStatus" class="inline-block mb-2 text-base font-medium">Status</label>
-                                        <select class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="productStatus" id="productStatus">
+                                        <select name="product_status" id="productStatus" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="">
                                             @foreach($StatusProduct as $key => $value)
                                                 <option value="{{ $value->status }}">{{ $value->status }}</option>
                                             @endforeach
                                         </select>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="xl:col-span-4">
                                         <label for="productVisibility" class="inline-block mb-2 text-base font-medium">Visibility</label>
-                                        <select class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" name="productVisibility" id="productVisibility">
+                                        <select name="visibility" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" data-choices="" data-choices-search-false="" id="productVisibility">
                                             @foreach($Visibility as $key => $value)
                                                 <option value="{{ $value->visibility }}">{{ $value->visibility }}</option>
                                             @endforeach
                                         </select>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="lg:col-span-2 xl:col-span-12">
                                         <label for="productTag" class="inline-block mb-2 text-base font-medium">Product Tag</label>
-                                        <input class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" id="productTag" data-choices="" data-choices-text-unique-true="" type="text" value="Fashion, Clothes, Headphones">
+                                        <input type="text" name="product_tag" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" id="productTag" data-choices="" data-choices-text-unique-true="">
                                     </div>
-                                    <!--end col-->
                                 </div>
                                 <!--end grid-->
                                 <div class="flex justify-end gap-2 mt-4">
@@ -245,39 +232,39 @@
                             <h6 class="mt-3 mb-2 text-15">Colors</h6>
                             <div class="flex flex-wrap items-center gap-2">
                                 <div>
-                                    <input id="selectColorPre1" class="inline-block align-middle border rounded-full appearance-none cursor-pointer size-5 bg-sky-500 border-sky-500 checked:bg-sky-500 checked:border-sky-500 disabled:opacity-75 disabled:cursor-default" type="checkbox" value="color1" name="selectColorPre">
+                                    <input type="checkbox" value="color1" name="selectColorPre[]" id="selectColorPre1" class="inline-block align-middle border rounded-full appearance-none cursor-pointer size-5 bg-sky-500 border-sky-500 checked:bg-sky-500 checked:border-sky-500 disabled:opacity-75 disabled:cursor-default">
                                 </div>
                                 <div>
-                                    <input id="selectColorPre2" class="inline-block align-middle bg-orange-500 border border-orange-500 rounded-full appearance-none cursor-pointer size-5 checked:bg-orange-500 checked:border-orange-500 disabled:opacity-75 disabled:cursor-default" type="checkbox" value="color2" name="selectColorPre" checked="">
+                                    <input  type="checkbox" value="color2" name="selectColorPre[]" id="selectColorPre2" checked class="inline-block align-middle bg-orange-500 border border-orange-500 rounded-full appearance-none cursor-pointer size-5 checked:bg-orange-500 checked:border-orange-500 disabled:opacity-75 disabled:cursor-default">
                                 </div>
                                 <div>
-                                    <input id="selectColorPre3" class="inline-block align-middle bg-green-500 border border-green-500 rounded-full appearance-none cursor-pointer size-5 checked:bg-green-500 checked:border-green-500 disabled:opacity-75 disabled:cursor-default" type="checkbox" value="color3" name="selectColorPre">
+                                    <input type="checkbox" value="color3" name="selectColorPre[]" id="selectColorPre3" class="inline-block align-middle bg-green-500 border border-green-500 rounded-full appearance-none cursor-pointer size-5 checked:bg-green-500 checked:border-green-500 disabled:opacity-75 disabled:cursor-default">
                                 </div>
                                 <div>
-                                    <input id="selectColorPre4" class="inline-block align-middle bg-purple-500 border border-purple-500 rounded-full appearance-none cursor-pointer size-5 checked:bg-purple-500 checked:border-purple-500 disabled:opacity-75 disabled:cursor-default" type="checkbox" value="color4" name="selectColorPre">
+                                    <input  type="checkbox" value="color4" name="selectColorPre[]" id="selectColorPre4" class="inline-block align-middle bg-purple-500 border border-purple-500 rounded-full appearance-none cursor-pointer size-5 checked:bg-purple-500 checked:border-purple-500 disabled:opacity-75 disabled:cursor-default">
                                 </div>
                             </div>
 
                             <h6 class="mt-3 mb-2 text-15">Colors</h6>
                             <div class="flex flex-wrap items-center gap-2">
                                 <div>
-                                    <input id="selectSizePreXS" class="hidden peer" type="checkbox" value="XS" name="selectSizePre">
+                                    <input type="checkbox" value="XS" name="selectSizePre[]" id="selectSizePreXS" class="hidden peer">
                                     <label for="selectSizePreXS" class="flex items-center justify-center text-xs border rounded-md cursor-pointer size-8 border-slate-200 dark:border-zink-500 peer-checked:bg-custom-50 dark:peer-checked:bg-custom-500/20 peer-checked:border-custom-300 dark:peer-checked:border-custom-700 peer-disabled:bg-slate-50 dark:peer-disabled:bg-slate-500/15 peer-disabled:border-slate-100 dark:peer-disabled:border-slate-800 peer-disabled:cursor-default peer-disabled:text-slate-500 dark:peer-disabled:text-zink-200">XS</label>
                                 </div>
                                 <div>
-                                    <input id="selectSizePreS" class="hidden peer" type="checkbox" value="S" name="selectSizePre">
+                                    <input type="checkbox" value="S" name="selectSizePre[]" id="selectSizePreS" class="hidden peer">
                                     <label for="selectSizePreS" class="flex items-center justify-center text-xs border rounded-md cursor-pointer size-8 border-slate-200 dark:border-zink-500 peer-checked:bg-custom-50 dark:peer-checked:bg-custom-500/20 peer-checked:border-custom-300 dark:peer-checked:border-custom-700 peer-disabled:bg-slate-50 dark:peer-disabled:bg-slate-500/15 peer-disabled:border-slate-100 dark:peer-disabled:border-slate-800 peer-disabled:cursor-default peer-disabled:text-slate-500 dark:peer-disabled:text-zink-200">S</label>
                                 </div>
                                 <div>
-                                    <input id="selectSizePreM" class="hidden peer" type="checkbox" value="M" name="selectSizePre">
+                                    <input type="checkbox" value="M" name="selectSizePre[]" id="selectSizePreM" class="hidden peer">
                                     <label for="selectSizePreM" class="flex items-center justify-center text-xs border rounded-md cursor-pointer size-8 border-slate-200 dark:border-zink-500 peer-checked:bg-custom-50 dark:peer-checked:bg-custom-500/20 peer-checked:border-custom-300 dark:peer-checked:border-custom-700 peer-disabled:bg-slate-50 dark:peer-disabled:bg-slate-500/15 peer-disabled:border-slate-100 dark:peer-disabled:border-slate-800 peer-disabled:cursor-default peer-disabled:text-slate-500 dark:peer-disabled:text-zink-200">M</label>
                                 </div>
                                 <div>
-                                    <input id="selectSizePreL" class="hidden peer" type="checkbox" value="L" name="selectSizePre">
+                                    <input type="checkbox" value="L" name="selectSizePre[]" id="selectSizePreL" class="hidden peer">
                                     <label for="selectSizePreL" class="flex items-center justify-center text-xs border rounded-md cursor-pointer size-8 border-slate-200 dark:border-zink-500 peer-checked:bg-custom-50 dark:peer-checked:bg-custom-500/20 peer-checked:border-custom-300 dark:peer-checked:border-custom-700 peer-disabled:bg-slate-50 dark:peer-disabled:bg-slate-500/15 peer-disabled:border-slate-100 dark:peer-disabled:border-slate-800 peer-disabled:cursor-default peer-disabled:text-slate-500 dark:peer-disabled:text-zink-200">L</label>
                                 </div>
                                 <div>
-                                    <input id="selectSizePreXL" class="hidden peer" type="checkbox" value="XL" name="selectSizePre">
+                                    <input type="checkbox" value="XL" name="selectSizePre[]" id="selectSizePreXL" class="hidden peer">
                                     <label for="selectSizePreXL" class="flex items-center justify-center text-xs border rounded-md cursor-pointer size-8 border-slate-200 dark:border-zink-500 peer-checked:bg-custom-50 dark:peer-checked:bg-custom-500/20 peer-checked:border-custom-300 dark:peer-checked:border-custom-700 peer-disabled:bg-slate-50 dark:peer-disabled:bg-slate-500/15 peer-disabled:border-slate-100 dark:peer-disabled:border-slate-800 peer-disabled:cursor-default peer-disabled:text-slate-500 dark:peer-disabled:text-zink-200">XL</label>
                                 </div>
                             </div>

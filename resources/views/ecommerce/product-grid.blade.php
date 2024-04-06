@@ -4,7 +4,6 @@
     <!-- Page-content -->
     <div class="group-data-[sidebar-size=lg]:ltr:md:ml-vertical-menu group-data-[sidebar-size=lg]:rtl:md:mr-vertical-menu group-data-[sidebar-size=md]:ltr:ml-vertical-menu-md group-data-[sidebar-size=md]:rtl:mr-vertical-menu-md group-data-[sidebar-size=sm]:ltr:ml-vertical-menu-sm group-data-[sidebar-size=sm]:rtl:mr-vertical-menu-sm pt-[calc(theme('spacing.header')_*_1)] pb-[calc(theme('spacing.header')_*_0.8)] px-4 group-data-[navbar=bordered]:pt-[calc(theme('spacing.header')_*_1.3)] group-data-[navbar=hidden]:pt-0 group-data-[layout=horizontal]:mx-auto group-data-[layout=horizontal]:max-w-screen-2xl group-data-[layout=horizontal]:px-0 group-data-[layout=horizontal]:group-data-[sidebar-size=lg]:ltr:md:ml-auto group-data-[layout=horizontal]:group-data-[sidebar-size=lg]:rtl:md:mr-auto group-data-[layout=horizontal]:md:pt-[calc(theme('spacing.header')_*_1.6)] group-data-[layout=horizontal]:px-3 group-data-[layout=horizontal]:group-data-[navbar=hidden]:pt-[calc(theme('spacing.header')_*_0.9)]">
         <div class="container-fluid group-data-[content=boxed]:max-w-boxed mx-auto">
-            
             <div class="flex flex-col gap-2 py-4 md:flex-row md:items-center print:hidden">
                 <div class="grow">
                     <h5 class="text-16">Grid View</h5>
@@ -13,9 +12,7 @@
                     <li class="relative before:content-['\ea54'] before:font-remix ltr:before:-right-1 rtl:before:-left-1  before:absolute before:text-[18px] before:-top-[3px] ltr:pr-4 rtl:pl-4 before:text-slate-400 dark:text-zink-200">
                         <a href="#!" class="text-slate-400 dark:text-zink-200">Products</a>
                     </li>
-                    <li class="text-slate-700 dark:text-zink-100">
-                        Grid View
-                    </li>
+                    <li class="text-slate-700 dark:text-zink-100">Grid View</li>
                 </ul>
             </div>
             <div class="grid grid-cols-1 2xl:grid-cols-12 gap-x-5 ">
@@ -28,12 +25,10 @@
                                     <a href="#!" class="underline transition-all duration-200 ease-linear hover:text-custom-500">Clear All</a>
                                 </div>
                             </div>
-
                             <div class="relative mt-4">
                                 <input type="text" class="ltr:pl-8 rtl:pr-8 search form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Search for ..." autocomplete="off">
                                 <i data-lucide="search" class="inline-block size-4 absolute ltr:left-2.5 rtl:right-2.5 top-2.5 text-slate-500 dark:text-zink-200 fill-slate-100 dark:fill-zink-600"></i>
                             </div>
-
                             <div class="mt-4 collapsible">
                                 <button class="flex items-center w-full text-left collapsible-header group">
                                     <h6 class="underline grow">Color</h6>
@@ -77,13 +72,13 @@
                                         <div class="flex items-center gap-2">
                                             <input id="price1" class="size-4 cursor-pointer bg-white border border-slate-200 checked:bg-none dark:bg-zink-700 dark:border-zink-500 rounded-sm appearance-none arrow-none relative after:absolute after:content-['\eb7b'] after:top-0 after:left-0 after:font-remix after:leading-none after:opacity-0 checked:after:opacity-100 after:text-custom-500 checked:border-custom-500 dark:after:text-custom-500 dark:checked:border-custom-800" type="checkbox" value="">
                                             <label for="price1" class="align-middle cursor-pointer">
-                                                $0.00 – $110.00
+                                                $0.00 - $110.00
                                             </label>
                                         </div>
                                         <div class="flex items-center gap-2">
                                             <input id="price2" class="size-4 cursor-pointer bg-white border border-slate-200 checked:bg-none dark:bg-zink-700 dark:border-zink-500 rounded-sm appearance-none arrow-none relative after:absolute after:content-['\eb7b'] after:top-0 after:left-0 after:font-remix after:leading-none after:opacity-0 checked:after:opacity-100 after:text-custom-500 checked:border-custom-500 dark:after:text-custom-500 dark:checked:border-custom-800" type="checkbox" value="">
                                             <label for="price2" class="align-middle cursor-pointer">
-                                                $110.00 – $220.00
+                                                $110.00 - $220.00
                                             </label>
                                         </div>
                                         <div class="flex items-center gap-2">
@@ -274,7 +269,9 @@
                             </div>
                         </div>
                     </div>
-                </div><!--end col-->
+                </div>
+                <!--end col-->
+
                 <div class="2xl:col-span-9">
                     <div class="flex flex-wrap items-center gap-2">
                         <p class="grow">Showing all <b>7,410</b> items results</p>
@@ -311,7 +308,9 @@
                     <div class="grid grid-cols-1 mt-5 md:grid-cols-2 [&.gridView]:grid-cols-1 xl:grid-cols-4 group [&.gridView]:xl:grid-cols-1 gap-x-5" id="cardGridView">
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
-                                <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6 active"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
+                                <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6 active">
+                                    <i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i>
+                                </a>
                                 <div class="group-[.gridView]:p-3 group-[.gridView]:bg-slate-100 dark:group-[.gridView]:bg-zink-600 group-[.gridView]:inline-block rounded-md">
                                     <img src="{{ URL::to('assets/images/img-02.png') }}" alt="" class="group-[.gridView]:h-16">
                                 </div>
@@ -319,7 +318,6 @@
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Mesh Ergonomic Black Chair</a></h6>
-
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -351,7 +349,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -362,7 +361,6 @@
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Fastcolors Typography Men</a></h6>
-
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -394,7 +392,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -405,7 +404,6 @@
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Mesh Ergonomic Green Chair</a></h6>
-
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -437,7 +435,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6 active"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -448,7 +447,6 @@
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Techel Black Bluetooth Soundbar</a></h6>
-
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -480,7 +478,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -491,7 +490,6 @@
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Bovet Fleurier AIFSQ029</a></h6>
-
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -523,7 +521,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6 active"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -534,7 +533,6 @@
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Roar Twill Blue Baseball Cap</a></h6>
-
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -566,7 +564,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -576,8 +575,9 @@
                             </div>
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
-                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Smartest Printed T-shirt</a></h6>
-
+                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500">
+                                        <a href="apps-ecommerce-product-overview.html">Smartest Printed T-shirt</a>
+                                    </h6>
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -609,7 +609,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
+                        </div>
+                        <!--end col & card-->
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6 active"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -619,8 +620,9 @@
                             </div>
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
-                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Crop tops for Women western wear</a></h6>
-
+                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500">
+                                        <a href="apps-ecommerce-product-overview.html">Crop tops for Women western wear</a>
+                                    </h6>
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -652,8 +654,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--end col & card-->
-                    </div><!--end grid-->
+                        </div>
+                        <!--end col & card-->
+                    </div>
+                    <!--end grid-->
 
                     <div class="flex flex-col items-center mb-5 md:flex-row">
                         <div class="mb-4 grow md:mb-0">
@@ -683,8 +687,10 @@
                             </li>
                         </ul>
                     </div>
-                </div><!--end col-->
-            </div><!--end grid-->
+                </div>
+                <!--end col-->
+            </div>
+            <!--end grid-->
         </div>
         <!-- container-fluid -->
     </div>
