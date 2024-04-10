@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="xl:col-span-6">
                                         <label for="productCodeInput" class="inline-block mb-2 text-base font-medium">Product Code</label>
-                                        <input type="text" id="productCodeInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Product Code" value="ST000000">
+                                        <input type="text" id="productCodeInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Product Code" value="ST000000" readonly>
                                         <p class="mt-1 text-sm text-slate-400 dark:text-zink-200">Code will be generated automatically</p>
                                     </div>
                                     <div class="xl:col-span-4">
@@ -223,8 +223,8 @@
                                 <img src="{{ URL::to('assets/images/img-03.png') }}" alt="" class="block mx-auto h-44">
                             </div>
                             <div class="mt-3">
-                                <h5 class="mb-2">$145.99 
-                                    <small class="font-normal line-through">299.99</small>
+                                <h5 class="mb-2">$100.99 
+                                    <small class="font-normal line-through">99.99</small>
                                 </h5>
                                 <h6 class="mb-1 text-15">Fastcolors Typography Men</h6>
                                 <p class="text-slate-500 dark:text-zink-200">Men's Fashion</p>

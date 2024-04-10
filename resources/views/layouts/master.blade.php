@@ -623,7 +623,7 @@
             <a href="#!" class="w-full text-white transition-all duration-200 ease-linear bg-red-500 border-red-500 btn hover:text-white hover:bg-red-600 hover:border-red-600 focus:text-white focus:bg-red-600 focus:border-red-600 focus:ring focus:ring-red-100 active:text-white active:bg-red-600 active:border-red-600 active:ring active:ring-red-100">Buy Now</a>
         </div>
     </div>
-
+  
     <script src='{{ URL::to('assets/libs/choices.js/public/assets/scripts/choices.min.js') }}'></script>
     <script src="{{ URL::to('assets/libs/%40popperjs/core/umd/popper.min.js') }}"></script>
     <script src="{{ URL::to('assets/libs/tippy.js/tippy-bundle.umd.min.js') }}"></script>
@@ -635,6 +635,10 @@
     <script src="{{ URL::to('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
     <script src="{{ URL::to('assets/libs/dropzone/dropzone-min.js') }}"></script>
     <script src="{{ URL::to('assets/js/pages/pages-account.init.js') }}"></script>
+
+    <!-- list js-->
+    <script src="{{ URL::to('assets/libs/list.js/list.min.js') }}"></script>
+    <script src="{{ URL::to('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
     <!-- App js -->
     <script src="{{ URL::to('assets/js/app.js') }}"></script>
     @yield('script')

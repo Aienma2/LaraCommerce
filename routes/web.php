@@ -80,7 +80,14 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
     Route::controller(EcommerceController::class)->group(function () {
         Route::get('product/create/page', 'productCreate')->middleware('auth')->name('product/create/page');
         Route::get('product/overview/page', 'productOverview')->middleware('auth')->name('product/overview/page');
+        Route::get('product/list/page', 'productList')->middleware('auth')->name('product/list/page');
         Route::get('product/grid/page', 'productGrid')->middleware('auth')->name('product/grid/page');
+    });
+
+    // ------------------------ User --------------------//
+    Route::controller(UserManagementController::class)->group(function () {
+        Route::get('user/list/page', 'userList')->middleware('auth')->name('user/list/page');
+        Route::get('get-users-data', 'getUsersData')->name('get-users-data'); /** get all data users */
     });
 });
 
