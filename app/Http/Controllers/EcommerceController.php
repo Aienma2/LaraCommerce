@@ -45,4 +45,10 @@ class EcommerceController extends Controller
     {
         return view('ecommerce.product-list');
     }
+
+    /** shopping cart */
+    public function shoppingCart()
+    {
+        return view('ecommerce.ecommerce-cart');
+    }
 }
