@@ -51,4 +51,10 @@ class EcommerceController extends Controller
     {
         return view('ecommerce.ecommerce-cart');
     }
+
+    /** ecommerce checkout */
+    public function ecommerceCheckout()
+    {
+        return view('ecommerce.ecommerce-checkout');
+    }
 }
