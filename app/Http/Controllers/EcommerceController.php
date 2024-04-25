@@ -57,4 +57,10 @@ class EcommerceController extends Controller
     {
         return view('ecommerce.ecommerce-checkout');
     }
+
+    /** ecommerce order */
+    public function ecommerceOrder()
+    {
+        return view('ecommerce.ecommerce-orders');
+    }
 }
