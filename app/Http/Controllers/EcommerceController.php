@@ -25,25 +25,25 @@ class EcommerceController extends Controller
         $StatusProduct      = StatusProduct::all();
         $Visibility         = Visibility::all();
         $TAXApplicable      = TAXApplicable::all();
-        return view('ecommerce.product-create',compact('CategoryProduction','Gender','ProductType','Size','StatusProduct','Visibility','TAXApplicable'));
+        return view('ecommerce.product.create',compact('CategoryProduction','Gender','ProductType','Size','StatusProduct','Visibility','TAXApplicable'));
     }
 
     /** page product overview */
     public function productOverview()
     {
-        return view('ecommerce.overview');
+        return view('ecommerce.product.overview');
     }
 
     /** product grid */
     public function productGrid()
     {
-        return view('ecommerce.grid');
+        return view('ecommerce.product.grid');
     }
 
     /** product list */
     public function productList()
     {
-        return view('ecommerce.list');
+        return view('ecommerce.product.list');
     }
 
     /** shopping cart */
