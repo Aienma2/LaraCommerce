@@ -31,37 +31,37 @@ class EcommerceController extends Controller
     /** page product overview */
     public function productOverview()
     {
-        return view('ecommerce.product-overview');
+        return view('ecommerce.overview');
     }
 
     /** product grid */
     public function productGrid()
     {
-        return view('ecommerce.product-grid');
+        return view('ecommerce.grid');
     }
 
     /** product list */
     public function productList()
     {
-        return view('ecommerce.product-list');
+        return view('ecommerce.list');
     }
 
     /** shopping cart */
     public function shoppingCart()
     {
-        return view('ecommerce.ecommerce-cart');
+        return view('ecommerce.cart');
     }
 
     /** ecommerce checkout */
     public function ecommerceCheckout()
     {
-        return view('ecommerce.ecommerce-checkout');
+        return view('ecommerce.checkout');
     }
 
     /** ecommerce order */
     public function ecommerceOrder()
     {
-        return view('ecommerce.ecommerce-orders');
+        return view('ecommerce.orders');
     }
 
     /** order over view */
