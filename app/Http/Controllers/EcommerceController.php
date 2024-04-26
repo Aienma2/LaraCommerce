@@ -63,4 +63,10 @@ class EcommerceController extends Controller
     {
         return view('ecommerce.ecommerce-orders');
     }
+
+    /** order over view */
+    public function orderOverView()
+    {
+        return view('ecommerce.order-overview');
+    }
 }
