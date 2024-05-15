@@ -86,6 +86,7 @@ Route::group(['namespace' => 'App\Http\Controllers'],function()
         Route::get('ecommerce/checkout/page', 'ecommerceCheckout')->middleware('auth')->name('ecommerce/checkout/page');
         Route::get('ecommerce/order/page', 'ecommerceOrder')->middleware('auth')->name('ecommerce/order/page');
         Route::get('ecommerce/order/overview/page', 'orderOverView')->middleware('auth')->name('ecommerce/order/overview/page');
+        Route::get('ecommerce/sellers/page', 'sellers')->middleware('auth')->name('ecommerce/sellers/page');
     });
 
     // ------------------------ User --------------------//
