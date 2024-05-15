@@ -12,7 +12,9 @@ class UserManagementController extends Controller
     /** Users List */
     public function userList()
     {
-        return view('user.userlist');
+        $roleType = DB::table('role_type_users')->get();
+        $designation = DB::table('roles_permissions')->get();
+        return view('user.userlist',compact('roleType','designation'));
     }
 
     /** get list data and search */
@@ -94,93 +96,83 @@ class UserManagementController extends Controller
             ->get();
         $data_arr = [];
         foreach ($records as $key => $record) {
-            $record->name = '<h2 class="table-avatar"><a href="'.url('employee/profile/' . $record->user_id).'" class="name">'.'<img class="avatar" data-avatar='.$record->avatar.' src="'.url('/assets/images/'.$record->avatar).'">' .$record->name.'</a></h2>';
-            if ($record->role_name == 'Admin') { /** color role name */
-                $role_name = '<span class="badge bg-inverse-danger role_name">'.$record->role_name.'</span>';
-            } elseif ($record->role_name == 'Super Admin') {
-                $role_name = '<span class="badge bg-inverse-warning role_name">'.$record->role_name.'</span>';
-            } elseif ($record->role_name == 'Normal User') {
-                $role_name = '<span class="badge bg-inverse-info role_name">'.$record->role_name.'</span>';
-            } elseif ($record->role_name == 'Client') {
-                $role_name = '<span class="badge bg-inverse-success role_name">'.$record->role_name.'</span>'; 
-            } elseif ($record->role_name == 'Employee') {
-                $role_name = '<span class="badge bg-inverse-dark role_name">'.$record->role_name.'</span>'; 
-            } else {
-                $role_name = 'NULL'; /** null role name */
+
+            $fullName = $record->name;
+            $parts = explode(' ', $fullName);
+            $initials = '';
+            foreach ($parts as $part) {
+                $initials .= strtoupper(substr($part, 0, 1));
             }
 
-            /** status */
-            $full_status = '
-                <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item"><i class="fa fa-dot-circle-o text-success"></i> Active </a>
-                    <a class="dropdown-item"><i class="fa fa-dot-circle-o text-warning"></i> Inactive </a>
-                    <a class="dropdown-item"><i class="fa fa-dot-circle-o text-danger"></i> Disable </a>
-                </div>
+            if(!empty($record->avatar)) {
+                $photo = '
+                    <div class="flex items-center justify-center font-medium rounded-full size-10 shrink-0 bg-slate-200 text-slate-800 dark:text-zink-50 dark:bg-zink-600">
+                        <img src="'.url('/assets/images/'.$record->avatar).'" alt="" class="h-10 rounded-full">
+                    </div>
+                ';
+            } else {
+                $photo = '
+                    <div class="flex items-center justify-center font-medium rounded-full size-10 shrink-0 bg-slate-200 text-slate-800 dark:text-zink-50 dark:bg-zink-600">
+                    '.$initials.'
+                    </div>
+                ';
+            }
+            $name = 
+            '
+                <td class="px-3.5 py-2.5 first:pl-5 last:pr-5">
+                    <div class="flex items-center gap-2">
+                        '.$photo.'
+                        <div class="grow">
+                            <h6 class="mb-1"><a href="#!" class="name">'.$record->name.'</a></h6>
+                            <p class="text-slate-500 dark:text-zink-200">'.$record->position.'</p>
+                        </div>
+                    </div>
+                </td>
             ';
 
             if ($record->status == 'Active') {
                 $status = '
-                    <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-dot-circle-o text-success"></i>
-                        <span class="status_s">'.$record->status.'</span>
-                    </a>
-                    '.$full_status.'
+                    <td class="px-3.5 py-2.5 first:pl-5 last:pr-5"><span class="px-2.5 py-0.5 text-xs font-medium rounded border bg-green-100 border-transparent text-green-500 dark:bg-green-500/20 dark:border-transparent inline-flex items-center status"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle" class="lucide lucide-check-circle size-3 mr-1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><path d="m9 11 3 3L22 4"></path></svg> Active</span></td>
                 ';
             } elseif ($record->status == 'Inactive') {
                 $status = '
-                    <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-dot-circle-o text-info"></i>
-                        <span class="status_s">'.$record->status.'</span>
-                    </a>
-                    '.$full_status.'
+                    <td class="px-3.5 py-2.5 first:pl-5 last:pr-5">
+                        <span class="px-2.5 py-0.5 inline-flex items-center text-xs font-medium rounded border bg-slate-100 border-transparent text-slate-500 dark:bg-slate-500/20 dark:text-zink-200 dark:border-transparent status">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="loader" class="lucide lucide-loader size-3 mr-1.5"><line x1="12" x2="12" y1="2" y2="6"></line>
+                            <line x1="12" x2="12" y1="18" y2="22"></line><line x1="4.93" x2="7.76" y1="4.93" y2="7.76"></line><line x1="16.24" x2="19.07" y1="16.24" y2="19.07"></line><line x1="2" x2="6" y1="12" y2="12"></line><line x1="18" x2="22" y1="12" y2="12"></line>
+                            <line x1="4.93" x2="7.76" y1="19.07" y2="16.24"></line>
+                            <line x1="16.24" x2="19.07" y1="7.76" y2="4.93"></line></svg> Inactive
+                        </span>
+                    </td>
                 ';
             } elseif ($record->status == 'Disable') {
                 $status = '
-                    <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-dot-circle-o text-danger"></i>
-                        <span class="status_s">'.$record->status.'</span>
-                    </a>
-                    '.$full_status.'
+                    <td class="px-3.5 py-2.5 first:pl-5 last:pr-5"><span class="px-2.5 py-0.5 inline-flex items-center text-xs font-medium rounded border bg-red-100 border-transparent text-red-500 dark:bg-red-500/20 dark:border-transparent status"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="x" class="lucide lucide-x size-3 mr-1.5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg> Disable</span></td>
                 ';
             } else {
-                $status = '
-                    <a class="btn btn-white btn-sm btn-rounded dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-dot-circle-o text-dark"></i>
-                        <span class="statuss">'.$record->status.'</span>
-                    </a>
-                    '.$full_status.'
-                ';
+                $status = 'Null';
             }
 
             $last_login = Carbon::parse($record->last_login)->diffForHumans();
 
             $data_arr [] = [
-                "no"           => '<span class="id" data-id = '.$record->id.'>'.$start + ($key + 1).'</span>',
-                "name"         => $record->name,
-                "user_id"      => '<span class="user_id">'.$record->user_id.'</span>',
-                "email"        => '<span class="email">'.$record->email.'</span>',
-                "position"     => '<span class="position">'.$record->position.'</span>',
-                "phone_number" => '<span class="phone_number">'.$record->phone_number.'</span>',
+                "no"           => $start + ($key + 1),
+                "name"         => $name,
+                "user_id"      => $record->user_id,
+                "email"        => $record->email,
+                "phone_number" => $record->phone_number,
                 "join_date"    => $record->join_date,
                 "last_login"   => $last_login,
-                "role_name"    => $role_name,
+                "role_name"    => $record->role_name,
                 "status"       => $status,
-                "department"   => '<span class="department">'.$record->department.'</span>',
+                "department"   => $record->department,
                 "action"       => 
                 '
-                <td>
-                    <div class="dropdown dropdown-action">
-                        <a class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            <i class="material-icons">more_vert</i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item userUpdate" data-toggle="modal" data-id="'.$record->id.'" data-target="#edit_user">
-                                <i class="fa fa-pencil m-r-5"></i> Edit
-                            </a>
-                            <a class="dropdown-item userDelete" data-toggle="modal" data-id="'.$record->id.'" data-target="#delete_user">
-                                <i class="fa fa-trash-o m-r-5"></i> Delete
-                            </a>
-                        </div>
+                <td class="px-3.5 py-2.5 first:pl-5 last:pr-5 border-y border-slate-200 dark:border-zink-500 Action">
+                    <div class="flex gap-3">
+                        <a class="flex items-center justify-center transition-all duration-200 ease-linear rounded-md size-8 bg-slate-100 text-slate-500 hover:text-custom-500 hover:bg-custom-100 dark:bg-zink-600 dark:text-zink-200 dark:hover:bg-custom-500/20 dark:hover:text-custom-500" href="pages-account.html"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="eye" class="lucide lucide-eye inline-block size-3"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path><circle cx="12" cy="12" r="3"></circle></svg> </a>
+                        <a href="#!" data-modal-target="addEmployeeModal" class="flex items-center justify-center transition-all duration-200 ease-linear rounded-md size-8 edit-item-btn bg-slate-100 text-slate-500 hover:text-custom-500 hover:bg-custom-100 dark:bg-zink-600 dark:text-zink-200 dark:hover:bg-custom-500/20 dark:hover:text-custom-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="pencil" class="lucide lucide-pencil size-4"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path><path d="m15 5 4 4"></path></svg></a>
+                        <a href="#!" data-modal-target="deleteModal" class="flex items-center justify-center transition-all duration-200 ease-linear rounded-md size-8 remove-item-btn bg-slate-100 text-slate-500 hover:text-custom-500 hover:bg-custom-100 dark:bg-zink-600 dark:text-zink-200 dark:hover:bg-custom-500/20 dark:hover:text-custom-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trash-2" class="lucide lucide-trash-2 size-4"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg></a>
                     </div>
                 </td>
                 ',
