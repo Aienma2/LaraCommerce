@@ -7,7 +7,7 @@
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="StarCode Kh" name="author">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::to('assets/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ URL::to('assets/images/AAA.png') }}">
     <!-- Layout config Js -->
     <script src="{{ URL::to('assets/js/layout.js') }}"></script>
     <!-- StarCode CSS -->

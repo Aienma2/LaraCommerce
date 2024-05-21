@@ -30,7 +30,7 @@ function setLanguage(lang) {
         if (lang == "en") {
             document.getElementById("header-lang-img").src = "/assets/images/flag/us.svg";
         } else if (lang == "kh") {
-            document.getElementById("header-lang-img").src = "/assets/images/flag/kh.png";
+            document.getElementById("header-lang-img").src = "/assets/images/flag/PH.png";
         }
         localStorage.setItem("language", lang);
         language = localStorage.getItem("language");

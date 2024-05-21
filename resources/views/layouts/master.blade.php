@@ -2,12 +2,10 @@
 <html lang="en" class="light scroll-smooth group" data-layout="vertical" data-sidebar="light" data-sidebar-size="lg" data-mode="light" data-topbar="light" data-skin="default" data-navbar="sticky" data-content="fluid" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Ecommerce | StarCode - Admin & Dashboard Template</title>
+    <title>Ecommerce | AIENMA - Admin & Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="StarCode Kh" name="author">
-    <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ URL::to('assets/images/favicon.ico') }}">
     <!-- Layout config Js -->
     <script src="{{ URL::to('assets/js/layout.js') }}"></script>
     <!-- StarCode CSS -->
@@ -27,7 +25,7 @@
                         <img src="{{ URL::to('assets/images/logo.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                     <span class="group-data-[sidebar-size=sm]:hidden">
-                        <img src="{{ URL::to('assets/images/logo-dark.png') }}" alt="" class="h-6 mx-auto">
+                        <img src="{{ URL::to('assets/images/YEN.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                 </a>
                 <a href="{{ route('home') }}" class="hidden group-data-[sidebar=dark]:block group-data-[sidebar=brand]:block group-data-[sidebar=modern]:block">
@@ -96,8 +94,8 @@
                                         <h6 class="transition-all duration-200 ease-linear font-15medium text- text-slate-600 dark:text-zink-200 group-hover/items:text-custom-500">English</h6>
                                     </a>
                                     <a href="#!" class="flex items-center gap-3 group/items language" data-lang="kh" title="Khmer">
-                                        <img src="{{ URL::to('assets/images/flag/kh.png') }}" alt="" class="object-cover h-4 rounded-full">
-                                        <h6 class="transition-all duration-200 ease-linear font-15medium text- text-slate-600 dark:text-zink-200 group-hover/items:text-custom-500">Khmer</h6>
+                                        <img src="{{ URL::to('assets/images/flag/PH.png') }}" alt="" class="object-cover h-4 rounded-full">
+                                        <h6 class="transition-all duration-200 ease-linear font-15medium text- text-slate-600 dark:text-zink-200 group-hover/items:text-custom-500">Philippines</h6>
                                     </a>
                                 </div>
                             </div>
@@ -220,7 +218,7 @@
                             <div class="relative flex items-center dropdown h-header">
                                 <button type="button" class="inline-block p-0 transition-all duration-200 ease-linear bg-topbar rounded-full text-topbar-item dropdown-toggle btn hover:bg-topbar-item-bg-hover hover:text-topbar-item-hover group-data-[topbar=dark]:text-topbar-item-dark group-data-[topbar=dark]:bg-topbar-dark group-data-[topbar=dark]:hover:bg-topbar-item-bg-hover-dark group-data-[topbar=dark]:hover:text-topbar-item-hover-dark group-data-[topbar=brand]:bg-topbar-brand group-data-[topbar=brand]:hover:bg-topbar-item-bg-hover-brand group-data-[topbar=brand]:hover:text-topbar-item-hover-brand group-data-[topbar=dark]:dark:bg-zink-700 group-data-[topbar=dark]:dark:hover:bg-zink-600 group-data-[topbar=brand]:text-topbar-item-brand group-data-[topbar=dark]:dark:hover:text-zink-50 group-data-[topbar=dark]:dark:text-zink-200" id="dropdownMenuButton" data-bs-toggle="dropdown">
                                     <div class="bg-pink-100 rounded-full">
-                                        <img src="{{ URL::to('assets/images/profile.png') }}" alt="" class="w-[37.5px] h-[37.5px] rounded-full">
+                                        <img src="{{ URL::to('assets/images/NIG.png') }}" alt="" class="w-[37.5px] h-[37.5px] rounded-full">
                                     </div>
                                 </button>
                                 <div class="absolute z-50 hidden p-4 ltr:text-left rtl:text-right bg-white rounded-md shadow-md !top-4 dropdown-menu min-w-[14rem] dark:bg-zink-600" aria-labelledby="dropdownMenuButton">
@@ -228,7 +226,7 @@
                                     <a href="#!" class="flex gap-3 mb-3">
                                         <div class="relative inline-block shrink-0">
                                             <div class="rounded bg-slate-100 dark:bg-zink-500">
-                                                <img src="{{ URL::to('assets/images/profile.png') }}" alt="" class="w-12 h-12 rounded">
+                                                <img src="{{ URL::to('assets/images/NIG.png') }}" alt="" class="w-12 h-12 rounded">
                                             </div>
                                             <span class="-top-1 ltr:-right-1 rtl:-left-1 absolute w-2.5 h-2.5 bg-green-400 border-2 border-white rounded-full dark:border-zink-600"></span>
                                         </div>

@@ -54,12 +54,12 @@
                             <tbody class="list">
                                 <tr>
                                     <td class="px-3.5 py-2.5 border-y border-slate-200 dark:border-zink-500">
-                                        <a href="#!" class="transition-all duration-150 ease-linear product_code text-custom-500 hover:text-custom-600">#TAD-232100071</a>
+                                        <a href="#!" class="transition-all duration-150 ease-linear product_code text-custom-500 hover:text-custom-600">#TAD-232100080</a>
                                     </td>
                                     <td class="px-3.5 py-2.5 border-y border-slate-200 dark:border-zink-500 product_name">
                                         <a href="apps-ecommerce-product-overview.html" class="flex items-center gap-2">
-                                            <img src="{{ URL::to('assets/images/img-012.png') }}" alt="Product images" class="h-6">
-                                            <h6 class="product_name">Smartest Printed T-shirt</h6>
+                                            <img src="{{ URL::to('assets/images/DIYATAS.png') }}" alt="Product images" class="h-6">
+                                            <h6 class="product_name">DIYATA PARES OVERCOOK</h6>
                                         </a>
                                     </td>
                                     <td class="px-3.5 py-2.5 border-y border-slate-200 dark:border-zink-500 category">
