@@ -328,11 +328,11 @@
                                         </div>
                                         (198)
                                     </div>
-                                    <h5 class="mt-4 text-16">$674.12 <small class="font-normal line-through text-slate-500 dark:text-zink-200">784.99</small></h5>
+                                    <h5 class="mt-4 text-16">$15 <small class="font-normal line-through text-slate-500 dark:text-zink-200">40</small></h5>
                                 </div>
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
-                                    <button type="button" class="w-full bg-white border-dashed text-slate-500 btn border-slate-500 hover:text-slate-500 hover:bg-slate-50 hover:border-slate-600 focus:text-slate-600 focus:bg-slate-50 focus:border-slate-600 active:text-slate-600 active:bg-slate-50 active:border-slate-600 dark:bg-zink-700 dark:text-zink-200 dark:border-zink-400 dark:ring-zink-400/20 dark:hover:bg-zink-600 dark:hover:text-zink-100 dark:focus:bg-zink-600 dark:focus:text-zink-100 dark:active:bg-zink-600 dark:active:text-zink-100"><i data-lucide="shopping-cart" class="inline-block w-3 h-3 leading-none"></i> <span class="align-middle">Add to Cart</span></button>
+                                    <button type="button" class="w-full bg-white border-dashed text-slate-500 btn border-slate-500 hover:text-slate-500 hover:bg-slate-50 hover:border-slate-600 focus:text-slate-600 focus:bg-slate-50 focus:border-slate-600 active:text-slate-600 active:bg-slate-50 active:border-slate-600 dark:bg-zink-700 dark:text-zink-200 dark:border-zink-400 dark:ring-zink-400/20 dark:hover:bg-zink-600 dark:hover:text-zink-100 dark:focus:bg-zink-600 dark:focus:text-zink-100 dark:active:bg-zink-600 dark:active:text-zink-100"><i data-lucide="shopping-cart" class="inline-block w-3 h-3 leading-none"></i> <a href="#"><span class="align-middle"><a href="{{ route('shopping/cart/page') }}">Add to Cart</a></span></button></a>
                                     <div class="relative float-right dropdown">
                                         <button class="flex items-center justify-center w-[38.39px] h-[38.39px] dropdown-toggle p-0 text-slate-500 btn bg-slate-100 hover:text-white hover:bg-slate-600 focus:text-white focus:bg-slate-600 focus:ring focus:ring-slate-100 active:text-white active:bg-slate-600 active:ring active:ring-slate-100 dark:bg-slate-500/20 dark:text-slate-400 dark:hover:bg-slate-500 dark:hover:text-white dark:focus:bg-slate-500 dark:focus:text-white dark:active:bg-slate-500 dark:active:text-white dark:ring-slate-400/20" id="productList1" data-bs-toggle="dropdown"><i data-lucide="more-horizontal" class="w-3 h-3"></i></button>
                                         <ul class="absolute z-50 hidden py-2 mt-1 ltr:text-left rtl:text-right list-none bg-white rounded-md shadow-md dropdown-menu min-w-[10rem] dark:bg-zink-600" aria-labelledby="productList1">
@@ -351,6 +351,7 @@
                             </div>
                         </div>
                         <!--end col & card-->
+
                         <div class="card md:group-[.gridView]:flex relative">
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
@@ -371,7 +372,7 @@
                                         </div>
                                         (1,150)
                                     </div>
-                                    <h5 class="mt-4 text-16">$341.99 <small class="font-normal line-through text-slate-500 dark:text-zink-200">784.99</small></h5>
+                                    <h5 class="mt-4 text-16">$40 <small class="font-normal line-through text-slate-500 dark:text-zink-200">70</small></h5>
                                 </div>
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
@@ -398,12 +399,12 @@
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
                                 <div class="group-[.gridView]:p-3 group-[.gridView]:bg-slate-100 dark:group-[.gridView]:bg-zink-600 group-[.gridView]:inline-block rounded-md">
-                                    <img src="{{ URL::to('assets/images/img-04.png') }}" alt="" class="group-[.gridView]:h-16">
+                                    <img src="{{ URL::to('assets/images/img-02.png') }}" alt="" class="group-[.gridView]:h-16">
                                 </div>
                             </div>
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
-                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Mesh Ergonomic Green Chair</a></h6>
+                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Mesh</a></h6>
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -414,8 +415,9 @@
                                         </div>
                                         (29)
                                     </div>
-                                    <h5 class="mt-4 text-16">$362.21 <small class="font-normal line-through text-slate-500 dark:text-zink-200">599.99</small></h5>
+                                    <h5 class="mt-4 text-16">$36 <small class="font-normal line-through text-slate-500 dark:text-zink-200">50</small></h5>
                                 </div>
+                                
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
                                     <button type="button" class="w-full bg-white border-dashed text-slate-500 btn border-slate-500 hover:text-slate-500 hover:bg-slate-50 hover:border-slate-600 focus:text-slate-600 focus:bg-slate-50 focus:border-slate-600 active:text-slate-600 active:bg-slate-50 active:border-slate-600 dark:bg-zink-700 dark:text-zink-200 dark:border-zink-400 dark:ring-zink-400/20 dark:hover:bg-zink-600 dark:hover:text-zink-100 dark:focus:bg-zink-600 dark:focus:text-zink-100 dark:active:bg-zink-600 dark:active:text-zink-100"><i data-lucide="shopping-cart" class="inline-block w-3 h-3 leading-none"></i> <span class="align-middle">Add to Cart</span></button>
@@ -457,7 +459,7 @@
                                         </div>
                                         (1,324)
                                     </div>
-                                    <h5 class="mt-4 text-16">$249.99 <small class="font-normal line-through text-slate-500 dark:text-zink-200">399.99</small></h5>
+                                    <h5 class="mt-4 text-16">$50<small class="font-normal line-through text-slate-500 dark:text-zink-200">60</small></h5>
                                 </div>
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
@@ -484,12 +486,12 @@
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
                                 <div class="group-[.gridView]:p-3 group-[.gridView]:bg-slate-100 dark:group-[.gridView]:bg-zink-600 group-[.gridView]:inline-block rounded-md">
-                                    <img src="{{ URL::to('assets/images/img-06.png') }}" alt="" class="group-[.gridView]:h-16">
+                                    <img src="{{ URL::to('assets/images/img-10.png') }}" alt="" class="group-[.gridView]:h-16">
                                 </div>
                             </div>
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
-                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Bovet Fleurier AIFSQ029</a></h6>
+                                    <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500"><a href="apps-ecommerce-product-overview.html">Hoodie for Men</a></h6>
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
                                             <i class="ri-star-fill"></i>
@@ -500,7 +502,7 @@
                                         </div>
                                         (2,195)
                                     </div>
-                                    <h5 class="mt-4 text-16">$496.16</h5>
+                                    <h5 class="mt-4 text-16">$10</h5>
                                 </div>
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
@@ -543,7 +545,7 @@
                                         </div>
                                         (485)
                                     </div>
-                                    <h5 class="mt-4 text-16">$674.12 <small class="font-normal line-through text-slate-500 dark:text-zink-200">784.99</small></h5>
+                                    <h5 class="mt-4 text-16">$6<small class="font-normal line-through text-slate-500 dark:text-zink-200">10</small></h5>
                                 </div>
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
@@ -588,7 +590,7 @@
                                         </div>
                                         (5,321)
                                     </div>
-                                    <h5 class="mt-4 text-16">$89.99</h5>
+                                    <h5 class="mt-4 text-16">$20</h5>
                                 </div>
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
@@ -615,13 +617,13 @@
                             <div class="relative group-[.gridView]:static p-8 group-[.gridView]:p-5">
                                 <a href="#!" class="absolute group/item toggle-button top-6 ltr:right-6 rtl:left-6 active"><i data-lucide="heart" class="size-5 text-slate-400 fill-slate-200 transition-all duration-150 ease-linear dark:text-zink-200 dark:fill-zink-600 group-[.active]/item:text-red-500 dark:group-[.active]/item:text-red-500 group-[.active]/item:fill-red-200 dark:group-[.active]/item:fill-red-500/20 group-hover/item:text-red-500 dark:group-hover/item:text-red-500 group-hover/item:fill-red-200 dark:group-hover/item:fill-red-500/20"></i></a>
                                 <div class="group-[.gridView]:p-3 group-[.gridView]:bg-slate-100 dark:group-[.gridView]:bg-zink-600 group-[.gridView]:inline-block rounded-md">
-                                    <img src="{{ URL::to('assets/images/img-10.png') }}" alt="" class="group-[.gridView]:h-16">
+                                    <img src="{{ URL::to('assets/images/DIYATAS.png') }}" alt="" class="group-[.gridView]:h-16">
                                 </div>
                             </div>
                             <div class="card-body !pt-0 md:group-[.gridView]:flex group-[.gridView]:!p-5 group-[.gridView]:gap-3 group-[.gridView]:grow">
                                 <div class="group-[.gridView]:grow">
                                     <h6 class="mb-1 truncate transition-all duration-200 ease-linear text-15 hover:text-custom-500">
-                                        <a href="apps-ecommerce-product-overview.html">Crop tops for Women western wear</a>
+                                        <a href="apps-ecommerce-product-overview.html">DIYATA T-SHIRT</a>
                                     </h6>
                                     <div class="flex items-center text-slate-500 dark:text-zink-200">
                                         <div class="mr-1 text-yellow-500 shrink-0 text-15">
@@ -633,8 +635,9 @@
                                         </div>
                                         (1551)
                                     </div>
-                                    <h5 class="mt-4 text-16">$145 <small class="font-normal line-through text-slate-500 dark:text-zink-200">299.99</small></h5>
+                                    <h5 class="mt-4 text-16">$14 <small class="font-normal line-through text-slate-500 dark:text-zink-200">29</small></h5>
                                 </div>
+                    
 
                                 <div class="flex items-center gap-2 mt-4 group-[.gridView]:mt-0 group-[.gridView]:self-end">
                                     <button type="button" class="w-full bg-white border-dashed text-slate-500 btn border-slate-500 hover:text-slate-500 hover:bg-slate-50 hover:border-slate-600 focus:text-slate-600 focus:bg-slate-50 focus:border-slate-600 active:text-slate-600 active:bg-slate-50 active:border-slate-600 dark:bg-zink-700 dark:text-zink-200 dark:border-zink-400 dark:ring-zink-400/20 dark:hover:bg-zink-600 dark:hover:text-zink-100 dark:focus:bg-zink-600 dark:focus:text-zink-100 dark:active:bg-zink-600 dark:active:text-zink-100"><i data-lucide="shopping-cart" class="inline-block w-3 h-3 leading-none"></i> <span class="align-middle">Add to Cart</span></button>

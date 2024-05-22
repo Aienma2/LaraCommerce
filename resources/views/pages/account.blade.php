@@ -20,10 +20,10 @@
                             </div>
                         </div><!--end col-->
                         <div class="lg:col-span-10 2xl:col-span-9">
-                            <h5 class="mb-1">StarCode Kh <i data-lucide="badge-check" class="inline-block size-4 text-sky-500 fill-sky-100 dark:fill-custom-500/20"></i></h5>
+                            <h5 class="mb-1">AIENMA <i data-lucide="badge-check" class="inline-block size-4 text-sky-500 fill-sky-100 dark:fill-custom-500/20"></i></h5>
                             <div class="flex gap-3 mb-4">
                                 <p class="text-slate-500 dark:text-zink-200"><i data-lucide="user-circle" class="inline-block size-4 ltr:mr-1 rtl:ml-1 text-slate-500 dark:text-zink-200 fill-slate-100 dark:fill-zink-500"></i> Web Developer</p>
-                                <p class="text-slate-500 dark:text-zink-200"><i data-lucide="map-pin" class="inline-block size-4 ltr:mr-1 rtl:ml-1 text-slate-500 dark:text-zink-200 fill-slate-100 dark:fill-zink-500"></i> Phnom Penh, Cambodia</p>
+                                <p class="text-slate-500 dark:text-zink-200"><i data-lucide="map-pin" class="inline-block size-4 ltr:mr-1 rtl:ml-1 text-slate-500 dark:text-zink-200 fill-slate-100 dark:fill-zink-500"></i>DI MAKATAO CITY Philippines</p>
                             </div>
                             <ul class="flex flex-wrap gap-3 mt-4 text-center divide-x divide-slate-200 dark:divide-zink-500 rtl:divide-x-reverse">
                                 <li class="px-5">
@@ -39,7 +39,7 @@
                                     <p class="text-slate-500 dark:text-zink-200">Products</p>
                                 </li>
                             </ul>
-                            <p class="mt-4 text-slate-500 dark:text-zink-200">Strong leader and negotiator adept at driving collaboration and innovation. Highly accomplished Web Developer with 10+ years of experience creating, launching and leading successful business ventures. Proven ability to build relationships, drive customer loyalty and increase profitability.</p>
+                            <p class="mt-4 text-slate-500 dark:text-zink-200">MAMA MO BLUE</p>
                             <div class="flex gap-2 mt-4">
                                 <a href="#!" class="flex items-center justify-center transition-all duration-200 ease-linear rounded size-9 text-sky-500 bg-sky-100 hover:bg-sky-200 dark:bg-sky-500/20 dark:hover:bg-sky-500/30">
                                     <i data-lucide="facebook" class="size-4"></i>
@@ -156,27 +156,23 @@
                                                 </tr>
                                                 <tr>
                                                     <th class="py-2 font-semibold ps-0" scope="row">Phone No</th>
-                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">617 219 6245</td>
+                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">0912*******</td>
                                                 </tr>p
                                                 <tr>
                                                     <th class="py-2 font-semibold ps-0" scope="row">Birth of Date</th>
-                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">15 Dec, 1998</td>
-                                                </tr>
-                                                <tr>
-                                                    <th class="py-2 font-semibold ps-0" scope="row">Website</th>
-                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200"><a href="http://StarCode Kh.in/" target="_blank" class="text-custom-500">www.starcodekh.com</a></td>
+                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">14 Apr, 2003</td>
                                                 </tr>
                                                 <tr>
                                                     <th class="py-2 font-semibold ps-0" scope="row">Email</th>
-                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">paula@StarCode Kh.com</td>
+                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">aienmaenma5@gmail.com.com</td>
                                                 </tr>
                                                 <tr>
                                                     <th class="py-2 font-semibold ps-0" scope="row">Location</th>
-                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">Phnom Penh, Cambodia</td>
+                                                    <td class="py-2 text-right text-slate-500 dark:text-zink-200">Philippines</td>
                                                 </tr>
                                                 <tr>
                                                     <th class="pt-2 font-semibold ps-0" scope="row">Joining Date</th>
-                                                    <td class="pt-2 text-right text-slate-500 dark:text-zink-200">01 July 2023</td>
+                                                    <td class="pt-2 text-right text-slate-500 dark:text-zink-200">17 July 2021</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -278,45 +274,6 @@
                             </div>
                         </div><!--end card-->
                         <div class="card">
-                            <div class="card-body">
-                                <h6 class="mb-3 text-15">Card Overview</h6>
-
-                                <div class="flex flex-col gap-3">
-                                    <a href="#!" class="flex items-center gap-3 p-2 border rounded-md border-slate-200 dark:border-zink-500">
-                                        <div class="flex items-center justify-center rounded-md size-12 shrink-0">
-                                            <img src="{{ URL::to('assets/images/img-013.png') }}" alt="" class="h-10">
-                                        </div>
-                                        <div class="grow">
-                                            <h5 class="mb-1 text-15">Mastercard</h5>
-                                            <p class="text-sm text-slate-500 dark:text-zink-200">XXXX XXXX XXXX 1501</p>
-                                        </div>
-                                        <div>
-                                            <span class="px-2.5 py-0.5 inline-block text-xs font-medium rounded border bg-sky-100 border-transparent text-sky-500 dark:bg-sky-500/20 dark:border-transparent">Primary</span>
-                                        </div>
-                                    </a>
-                                    <a href="#!" class="flex items-center gap-3 p-2 border rounded-md border-slate-200 dark:border-zink-500">
-                                        <div class="flex items-center justify-center rounded-md size-12 shrink-0">
-                                            <img src="{{ URL::to('assets/images/img-022.png') }}" alt="" class="h-10">
-                                        </div>
-                                        <div class="grow">
-                                            <h5 class="mb-1 text-15">Visa Card</h5>
-                                            <p class="text-sm text-slate-500 dark:text-zink-200">XXXX XXXX XXXX 9871</p>
-                                        </div>
-                                    </a>
-                                    <a href="#!" class="flex items-center gap-3 p-2 border rounded-md border-slate-200 dark:border-zink-500">
-                                        <div class="flex items-center justify-center rounded-md size-12 shrink-0">
-                                            <img src="{{ URL::to('assets/images/img-032.png') }}" alt="" class="h-10">
-                                        </div>
-                                        <div class="grow">
-                                            <h5 class="mb-1 text-15">Discover Network</h5>
-                                            <p class="text-sm text-slate-500 dark:text-zink-200">XXXX XXXX XXXX 7435</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="mt-3 text-center">
-                                    <a href="#!" class="inline-block underline text-custom-500">Add New Card <i data-lucide="move-right" class="inline-block ml-2 size-4 rtl:-rotate-180"></i></a>
-                                </div>
-                            </div>
                         </div><!--end card-->
                         <div class="card">
                             <div class="card-body">
