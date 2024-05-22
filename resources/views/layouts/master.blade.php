@@ -25,7 +25,7 @@
                         <img src="{{ URL::to('assets/images/logo.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                     <span class="group-data-[sidebar-size=sm]:hidden">
-                        <img src="{{ URL::to('assets/images/YEN.png') }}" alt="" class="h-6 mx-auto">
+                        <img src="{{ URL::to('assets/images/AAA.png') }}" alt="" class="h-6 mx-auto">
                     </span>
                 </a>
                 <a href="{{ route('home') }}" class="hidden group-data-[sidebar=dark]:block group-data-[sidebar=brand]:block group-data-[sidebar=modern]:block">

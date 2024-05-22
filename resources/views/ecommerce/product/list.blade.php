@@ -54,7 +54,7 @@
                             <tbody class="list">
                                 <tr>
                                     <td class="px-3.5 py-2.5 border-y border-slate-200 dark:border-zink-500">
-                                        <a href="#!" class="transition-all duration-150 ease-linear product_code text-custom-500 hover:text-custom-600">#TAD-232100080</a>
+                                        <a href="" class="transition-all duration-150 ease-linear product_code text-custom-500 hover:text-custom-600">#TAD-232100080</a>
                                     </td>
                                     <td class="px-3.5 py-2.5 border-y border-slate-200 dark:border-zink-500 product_name">
                                         <a href="apps-ecommerce-product-overview.html" class="flex items-center gap-2">

@@ -60,7 +60,7 @@
                             <div class="card-body">
                                 <div class="grid grid-cols-1 gap-4 lg:grid-cols-12">
                                     <div class="p-4 rounded-md lg:col-span-2 bg-slate-100 dark:bg-zink-600">
-                                        <img src="{{ URL::to('assets/images/img-04.png') }}" alt="">
+                                        <img src="{{ URL::to('assets/images/img-02.png') }}" alt="">
                                     </div><!--end col-->
                                     <div class="flex flex-col lg:col-span-4">
                                         <div>

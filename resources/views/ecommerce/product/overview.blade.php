@@ -33,7 +33,7 @@
                                         <img src="{{ URL::to('assets/images/img-012.png') }}" alt="">
                                     </div>
                                     <div class="p-4 rounded-md md:col-span-4 bg-slate-100 dark:bg-zink-600">
-                                        <img src="{{ URL::to('assets/images/img-09.png') }}" alt="">
+                                        <img src="{{ URL::to('assets/images/image-09.jpeg') }}" alt="">
                                     </div>
                                     <div class="p-4 rounded-md md:col-span-4 bg-slate-100 dark:bg-zink-600">
                                         <img src="{{ URL::to('assets/images/img-12.png') }}" alt="">
@@ -59,7 +59,7 @@
                         <div class="card">
                             <div class="border-b card-body border-slate-200 dark:border-zink-500">
                                 <div class="flex">
-                                    <h6 class="grow text-15"><i data-lucide="store" class="inline-block size-4 ltr:mr-1 rtl:ml-1"></i> <span class="align-middle">StarCode Kh</span></h6>
+                                    <h6 class="grow text-15"><i data-lucide="store" class="inline-block size-4 ltr:mr-1 rtl:ml-1"></i> <span class="align-middle">AIENMA/span></h6>
                                     <div class="shrink-0">
                                         <i data-lucide="star" class="inline-block text-yellow-500 size-4 ltr:mr-1 rtl:ml-1"></i> <span class="align-middle">(4.8)</span>
                                     </div>
@@ -93,10 +93,10 @@
                                 </ul>
                             </div>
                             <span class="px-2.5 py-0.5 text-xs inline-block font-medium rounded border bg-sky-100 border-sky-100 text-sky-500 dark:bg-sky-400/20 dark:border-transparent"> New Arrivals</span>
-                            <h5 class="mt-3 mb-1">Smartees Printed Men Round Neck Pink</h5>
+                            <h5 class="mt-3 mb-1">Smartees Printed Men Round Neck </h5>
                             <ul class="flex flex-wrap items-center gap-4 mb-5 text-slate-500 dark:text-zink-200">
                                 <li><a href="#!" class="font-medium underline text-custom-500">Rossie Fadel</a></li>
-                                <li>Seller: <a href="#!" class="font-medium">StarCode Kh</a></li>
+                                <li>Seller: <a href="#!" class="font-medium">AYEN</a></li>
                                 <li>Published: <span class="font-medium">20 Oct, 2023</span></li>
                             </ul>
 
@@ -121,7 +121,7 @@
 
                             <div class="mb-4">
                                 <p class="mb-1 text-green-500">Special Price</p>
-                                <h4>$487.32 <small class="font-normal line-through align-middle text-slate-500 dark:text-zink-200">$599.99</small> <small class="text-green-500 align-middle">20% Off</small></h4>
+                                <h4>$20 </h4>
                             </div>
 
                             <h6 class="mb-3 text-15">Select Color</h6>
